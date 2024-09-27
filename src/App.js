@@ -25,7 +25,7 @@ function App() {
           onClick={handleClick}
         >
           <img
-            src="/images/click.webp" // Simgeyi buraya ekleyebilirsin
+            src={`${process.env.PUBLIC_URL}/images/click.webp`} // Simgeyi buraya ekleyebilirsin
             alt="Tap Icon"
             className="tap-icon"
             onContextMenu={disableContextMenu} // Sağ tıklamayı engelle
