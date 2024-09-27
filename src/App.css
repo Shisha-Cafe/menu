@@ -1,0 +1,72 @@
+/* Genel yapı */
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+/* İlk ekrandaki yapılar */
+.welcome-screen {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  outline: none;
+  transition: opacity 0.3s ease-in-out; /* Geçiş efekti */
+  -webkit-tap-highlight-color: transparent; /* Mobil tarayıcılar için tıklama vurgusunu engelle */
+}
+
+.welcome-screen.hide {
+  opacity: 0;
+}
+
+.tap-icon {
+  width: 150px; /* Simge boyutu */
+  height: 150px;
+  margin-bottom: 10px;
+  pointer-events: none; /* Tıklamayı engellemek için */
+  outline: none; /* Tıklama sonrası oluşan mavi çerçeveyi engelle */
+}
+
+.tap-icon:focus {
+  outline: none; /* Focus sırasında outline'ı gizle */
+}
+
+.welcome-text {
+  font-size: 16px; /* Mobil için varsayılan */
+  color: #333;
+}
+
+/* Media query - Masaüstü */
+@media (min-width: 768px) {
+  .welcome-screen {
+    height: 100vh;
+  }
+
+  .welcome-text {
+    font-size: 20px; /* Masaüstü için yazı boyutu */
+  }
+}
+
+/* Menü görünümü */
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu-container {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Menü geçiş efekti */
+  max-width: 1920px;
+
+}
+
+.menu-container.show {
+  opacity: 1;
+}
