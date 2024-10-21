@@ -8,7 +8,8 @@ const images = [
   `${process.env.PUBLIC_URL}/images/menu_page-0005.webp`,
   `${process.env.PUBLIC_URL}/images/menu_page-0006.webp`,
   `${process.env.PUBLIC_URL}/images/menu_page-0007.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0008.webp`
+  `${process.env.PUBLIC_URL}/images/menu_page-0008.webp`,
+  `${process.env.PUBLIC_URL}/images/menu_page-0009.webp`,
 ];
 
 
