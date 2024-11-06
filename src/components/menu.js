@@ -1,15 +1,15 @@
 import React from "react";
 
 const images = [
-  `${process.env.PUBLIC_URL}/images/menu_page-0001.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0002.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0003.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0004.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0005.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0006.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0007.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0008.webp`,
-  `${process.env.PUBLIC_URL}/images/menu_page-0009.webp`,
+  `${process.env.PUBLIC_URL}/images/1.webp`,
+  `${process.env.PUBLIC_URL}/images/2.webp`,
+  `${process.env.PUBLIC_URL}/images/3.webp`,
+  `${process.env.PUBLIC_URL}/images/4.webp`,
+  `${process.env.PUBLIC_URL}/images/5.webp`,
+  `${process.env.PUBLIC_URL}/images/6.webp`,
+  `${process.env.PUBLIC_URL}/images/7.webp`,
+  `${process.env.PUBLIC_URL}/images/8.webp`,
+  `${process.env.PUBLIC_URL}/images/9.webp`,
 ];
 
 

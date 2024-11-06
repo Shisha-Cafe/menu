@@ -7,14 +7,14 @@ function App() {
   const [hideWelcome, setHideWelcome] = useState(false);
 
   const handleClick = () => {
-    setHideWelcome(true); // İlk ekranı gizle
+    setHideWelcome(true); 
     setTimeout(() => {
-      setShowMenu(true); // Biraz gecikmeyle menüyü göster
+      setShowMenu(true); 
     }, 300);
   };
 
   const disableContextMenu = (e) => {
-    e.preventDefault(); // Sağ tıklamayı devre dışı bırak
+    e.preventDefault(); 
   };
 
   return (
