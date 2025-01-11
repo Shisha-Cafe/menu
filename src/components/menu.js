@@ -9,7 +9,6 @@ const images = [
   `${process.env.PUBLIC_URL}/images/6.webp`,
   `${process.env.PUBLIC_URL}/images/7.webp`,
   `${process.env.PUBLIC_URL}/images/8.webp`,
-  `${process.env.PUBLIC_URL}/images/9.webp`,
 ];
 
 
